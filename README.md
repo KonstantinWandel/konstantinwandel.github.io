@@ -12,6 +12,7 @@ site pipeline.
 
 - `index.html` contains the page content and semantic document structure.
 - `style.css` contains the academic monospace layout and responsive styling.
+- `script.js` contains the manual light/dark theme toggle.
 - `reset.css` normalizes browser defaults for consistent rendering.
 - `assets/` is reserved for future static files.
 - `cv.pdf`, when present in the repository root, is linked from the CV section.
