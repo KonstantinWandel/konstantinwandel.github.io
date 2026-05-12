@@ -2,7 +2,7 @@
   Academic adaptation of The Monospace Web by Oskar Wickström.
   Original: https://github.com/owickstrom/the-monospace-web
   License: MIT. This stylesheet borrows the all-monospace, grid-conscious
-  typography, bordered tables, compact lists, and sparse black/white palette.
+  typography, bordered tables, compact lists, and sparse neutral palette.
 */
 
 :root {
@@ -10,12 +10,13 @@
     Menlo, monospace;
   --line-height: 1.45rem;
   --border-thickness: 2px;
-  --text-color: #111;
-  --text-color-alt: #666;
-  --background-color: #fff;
-  --background-color-alt: #f2f2f2;
+  --text-color: #17130f;
+  --text-color-alt: #6c6255;
+  --background-color: #f4eddf;
+  --background-color-alt: #e8dcc9;
   --max-width: 84ch;
 
+  color-scheme: light;
   font-family: var(--font-family);
   font-size: 16px;
   font-style: normal;
@@ -30,6 +31,8 @@
     --text-color-alt: #aaa;
     --background-color: #050505;
     --background-color-alt: #171717;
+
+    color-scheme: dark;
   }
 }
 
