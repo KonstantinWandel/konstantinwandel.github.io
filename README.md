@@ -1,68 +1,36 @@
-# Konstantin Wandel Academic Homepage
+# konstantinwandel.github.io
 
-This repository contains a minimal static academic homepage for Konstantin Wandel.
-It is intended for deployment through GitHub Pages at:
+This repository contains the static academic homepage of Konstantin Wandel:
 
 <https://konstantinwandel.github.io>
 
-The site uses plain HTML and CSS. There is no React, Next.js, Tailwind, package
-manager, or build step.
+The site is a small, dependency-free GitHub Pages project. It uses plain HTML
+and CSS, with no JavaScript framework, package manager, build step, or generated
+site pipeline.
 
-## Preview Locally
+## Site Structure
 
-Open `index.html` directly in a browser.
+- `index.html` contains the page content and semantic document structure.
+- `style.css` contains the academic monospace layout and responsive styling.
+- `reset.css` normalizes browser defaults for consistent rendering.
+- `assets/` is reserved for future static files.
+- `cv.pdf`, when present in the repository root, is linked from the CV section.
 
-You can also serve the folder locally:
+## Content Scope
 
-```sh
-python3 -m http.server 8000
-```
+The homepage presents a sparse academic profile, research interests, current
+projects, working papers, CV entries, and contact information. Publication
+statuses, profile links, awards, supervisors, grades, and similar biographical
+details should only be added when confirmed.
 
-Then visit <http://localhost:8000>.
-
-## Deploy With GitHub Pages
-
-1. Create a GitHub repository named `konstantinwandel.github.io`.
-2. Put these files in the repository root.
-3. Commit and push to the default branch.
-4. In GitHub, open **Settings > Pages** and confirm that Pages is publishing
-   from the repository root on the default branch.
-5. The site should be available at <https://konstantinwandel.github.io>.
-
-## CV PDF
-
-The CV link in `index.html` points to `cv.pdf`.
-
-Place the current CV PDF in the repository root with this exact filename:
-
-```txt
-cv.pdf
-```
-
-Until that file is added, the CV link will be a placeholder.
-
-## Editing Content
-
-- Edit text, project descriptions, publication entries, and contact links in
-  `index.html`.
-- Edit typography, spacing, table behavior, and responsive layout in `style.css`.
-- Keep `reset.css` small and stable unless browser-default behavior needs to
-  change.
-- Put future images, documents, or other static files in `assets/`.
-
-Do not add publication links, university profile links, grades, supervisors,
-grants, awards, or publication statuses unless they are confirmed.
-
-## Attribution And License Notes
+## Design Attribution
 
 The visual design is adapted from [The Monospace Web][monospace-web] by
-Oskar Wickström, which is licensed under the MIT License.
+Oskar Wickström, an MIT-licensed minimalist monospace HTML/CSS design.
 
 Original source:
 <https://github.com/owickstrom/the-monospace-web>
 
-The footer and stylesheet comments preserve attribution. If the design is
-substantially reused elsewhere, keep attribution to The Monospace Web and its
-MIT license.
+Attribution is also preserved in the site footer and stylesheet comments.
 
 [monospace-web]: https://github.com/owickstrom/the-monospace-web
