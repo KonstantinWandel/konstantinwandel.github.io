@@ -5,13 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
       name="description"
-      content="Konstantin Wandel, research fellow in sociology and computational social science."
+      content="Konstantin Wandel, research fellow and doctoral researcher in sociology and computational social science at the University of Bielefeld."
     >
     <meta name="color-scheme" content="light dark">
-    <title>Konstantin Wandel</title>
+    <meta name="author" content="Konstantin Wandel">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <title>Konstantin Wandel &middot; Computational Social Science, University of Bielefeld</title>
+    <link rel="canonical" href="https://konstantinwandel.github.io/">
+
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Konstantin Wandel">
+    <meta property="og:site_name" content="Konstantin Wandel">
+    <meta property="og:url" content="https://konstantinwandel.github.io/">
+    <meta property="og:locale" content="en_GB">
+    <meta
+      property="og:description"
+      content="Research fellow and doctoral researcher at the University of Bielefeld: multimodal measurement of short-form video, regional data infrastructure, SOEP-based panel analysis."
+    >
+    <meta property="profile:first_name" content="Konstantin">
+    <meta property="profile:last_name" content="Wandel">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Konstantin Wandel">
+    <meta
+      name="twitter:description"
+      content="Research fellow and doctoral researcher at the University of Bielefeld: multimodal measurement of short-form video, regional data infrastructure, SOEP-based panel analysis."
+    >
+
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+
+    <!--
+      Structured data for search engines. Only facts that also appear on the page:
+      role, affiliation, degrees, topics, and the two profiles that identify the same
+      person elsewhere. Nothing unconfirmed goes in here, same rule as the page itself.
+    -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": "https://konstantinwandel.github.io/#person",
+        "name": "Konstantin Wandel",
+        "givenName": "Konstantin",
+        "familyName": "Wandel",
+        "url": "https://konstantinwandel.github.io/",
+        "email": "mailto:konstantin.wandel@uni-bielefeld.de",
+        "jobTitle": ["Research fellow", "Doctoral researcher"],
+        "description": "Research fellow and doctoral researcher in sociology and computational social science at the University of Bielefeld.",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "SOEP-RegioHub, University of Bielefeld",
+          "url": "https://geolab.soz.uni-bielefeld.de"
+        },
+        "affiliation": [
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "University of Bielefeld",
+            "url": "https://www.uni-bielefeld.de/"
+          },
+          {
+            "@type": "Organization",
+            "name": "Bielefeld Graduate School in History and Sociology (BGHS)",
+            "url": "https://www.uni-bielefeld.de/bghs/"
+          }
+        ],
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Zeppelin University"
+        },
+        "knowsAbout": [
+          "Computational social science",
+          "Multimodal measurement",
+          "Short-form video",
+          "Measurement validity and annotation design",
+          "Political sociology",
+          "Regional inequality",
+          "SOEP panel analysis",
+          "Geospatial social science",
+          "Natural language processing",
+          "Text embeddings",
+          "Semantic drift"
+        ],
+        "sameAs": [
+          "https://github.com/konstantinwandel",
+          "https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=648238023"
+        ]
+      }
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -24,10 +104,10 @@
       <div class="identity">
         <h1>Konstantin Wandel</h1>
         <p class="subtitle">
-          <span lang="en">Research fellow</span>
+          <span lang="en">Research fellow and doctoral researcher</span>
         </p>
         <p class="affiliation">
-          University of Bielefeld &middot; SOEP-RegioHub &middot; Computational Social Science
+          University of Bielefeld &middot; SOEP-RegioHub &middot; BGHS &middot; Computational Social Science
         </p>
       </div>
 
@@ -35,6 +115,7 @@
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#research">Research</a></li>
+          <li><a href="#dissertation">Dissertation</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#cv">CV</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -46,11 +127,19 @@
       <section id="about" aria-labelledby="about-heading">
         <h2 id="about-heading">About</h2>
         <p>
-          Konstantin Wandel is a research fellow at the
-          University of Bielefeld, working at LeibnizCampus / SOEP-RegioHub / DIW. His work
-          combines computational social science, political sociology, regional
-          inequality, panel data, NLP, embeddings, and questions of institutional
-          trust under algorithmic and media-technological change.
+          Konstantin Wandel is a research fellow at the University of Bielefeld,
+          working at LeibnizCampus / SOEP-RegioHub / DIW, and a doctoral researcher
+          at the Bielefeld Graduate School in History and Sociology (BGHS).
+        </p>
+        <p>
+          His dissertation asks which modality carries the meaning in short-form
+          video, and what follows for measurement once researchers code such
+          material at scale. A second strand of his work builds the data
+          infrastructure of SOEP-RegioHub: semantic search over survey and regional
+          metadata, verified links into the portals that hold the data, and
+          reproducible access paths for regionalized analysis. Earlier and
+          continuing work covers regional inequality, panel analysis of household
+          processes, and political language in large parliamentary corpora.
         </p>
       </section>
 
@@ -60,6 +149,8 @@
         <h2 id="research-heading">Research Interests</h2>
         <ul class="compact-list">
           <li>Computational social science</li>
+          <li>Multimodal measurement, video as data</li>
+          <li>Measurement validity, codebooks and annotation design</li>
           <li>Political sociology</li>
           <li>Regional inequality and social mobility</li>
           <li>SOEP-based panel analysis</li>
@@ -68,6 +159,66 @@
           <li>Generative media and consensus reality</li>
           <li>Institutional trust and algorithmic mediation</li>
         </ul>
+      </section>
+
+      <hr>
+
+      <section id="dissertation" aria-labelledby="dissertation-heading">
+        <h2 id="dissertation-heading">Dissertation</h2>
+        <p>
+          <strong>Multimodal Measurement of Short-Form Video.</strong> Four papers in
+          argument order, from everyday communication to the political case. The
+          instrument is validated on the more manifest everyday constructs first and
+          taken to the latent political domain afterwards, which has the side benefit
+          that the political round doubles as coder training.
+        </p>
+
+        <table class="cv-table">
+          <caption>
+            Papers in argument order
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Paper</th>
+              <th scope="col">What it is</th>
+              <th scope="col">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Paper">P1</td>
+              <td data-label="What it is">
+                Modality ablation on a corpus of everyday short-form video, with a
+                literature-grounded codebook and a purpose-built annotation app
+              </td>
+              <td data-label="Status">Active, coding</td>
+            </tr>
+            <tr>
+              <td data-label="Paper">P2</td>
+              <td data-label="What it is">
+                A typology of modality designs and a reporting standard for
+                multimodal coding
+              </td>
+              <td data-label="Status">Conceptual</td>
+            </tr>
+            <tr>
+              <td data-label="Paper">P3</td>
+              <td data-label="What it is">
+                Model inference under a budget: cost curves, capacity checks, and a
+                small language for describing coding designs
+              </td>
+              <td data-label="Status">Follows the gold standard</td>
+            </tr>
+            <tr>
+              <td data-label="Paper">P4</td>
+              <td data-label="What it is">
+                Political stress test: modality ablation on PoliTok-DE, the hardest
+                and most latent constructs
+              </td>
+              <td data-label="Status">Held as the deep test</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
 
       <hr>
@@ -99,6 +250,18 @@
           </article>
 
           <article class="project">
+            <h4>Content Sharing in the German Regional Press</h4>
+            <p>
+              A directed study of reprinting between regional newspapers: which title
+              carries another title&rsquo;s text, how quickly, and along which lines.
+              Same-day syndication dominates, flows follow size rather than wealth,
+              ownership forms the backbone of the network, and local reporting stays
+              siloed while national material travels. Only derived aggregates leave
+              the licensed corpus.
+            </p>
+          </article>
+
+          <article class="project">
             <h4>Semantic Drift in Parliamentary Speech</h4>
             <p>
               Embedding-based analysis of political language, topic structures,
@@ -125,13 +288,15 @@
               geospatial social science, metadata discovery, and reproducible data
               access.
             </p>
+            <p><a href="https://geolab.soz.uni-bielefeld.de">geolab.soz.uni-bielefeld.de</a></p>
           </article>
 
           <article class="project">
             <h4>Metadata-to-RAG Infrastructure</h4>
             <p>
               Search and retrieval infrastructure for regionalized datasets,
-              variable metadata, codebooks, and linked research documentation.
+              variable metadata, codebooks, and linked research documentation. The
+              two finders below run on it, and both index descriptions only.
             </p>
           </article>
         </section>
@@ -140,34 +305,52 @@
           <h3 id="tools-heading">Tools</h3>
 
           <article class="project">
-            <h4>Parliamentary Speech Vector Bank</h4>
+            <h4>GeoDB Geodata Index</h4>
             <p>
-              A retrieval tool built on dense vector embeddings of parliamentary corpora,
-              enabling semantic search across large collections of political speech. Supports
-              research into semantic drift, topic modelling, and regional political imaginaries.
+              Semantic search over the descriptions of German georeferenced data:
+              more than 12,000 indicators, tables and datasets from over 30 official
+              sources, with filters over spatial level (municipality,
+              district&ndash;NUTS3, NUTS2), theme, and year. Each hit links out to
+              the portal that holds the data, wherever the portal allows it at the
+              level of the single indicator or table. Descriptions are indexed, the
+              data itself stays with its provider.
             </p>
-            <p><em>Prototype &mdash; access on request.</em></p>
+            <p><a href="https://geodb.geolab.soz.uni-bielefeld.de">Open the tool</a></p>
+            <p class="meta">
+              Archived release:
+              <a href="https://doi.org/10.5281/zenodo.21134145">10.5281/zenodo.21134145</a>
+            </p>
           </article>
 
           <article class="project">
             <h4>SOEP Variable Finder</h4>
             <p>
-              Multilingual semantic search over SOEP-Core survey-variable metadata, with a
-              multilingual bi-encoder and cross-encoder reranker over German labels and English
-              descriptions. Surfaces canonical analysis-ready variables that conventional keyword
-              search tends to bury under chattier subsample items.
+              Multilingual semantic search over the official SOEP-Core v41 variable
+              metadata: 125,496 variables with bilingual labels, topic paths, and the
+              question wording where it exists. A multilingual bi-encoder with a
+              cross-encoder reranker surfaces canonical analysis-ready variables that
+              keyword search tends to bury under chattier subsample items.
             </p>
             <p><a href="https://soep-faiss.geolab.soz.uni-bielefeld.de">Open the tool</a></p>
+            <p class="meta">
+              Archived release:
+              <a href="https://doi.org/10.5281/zenodo.21134306">10.5281/zenodo.21134306</a>
+            </p>
           </article>
 
           <article class="project">
-            <h4>INKAR Regional Indicator Finder</h4>
+            <h4>Parliamentary Speech Finder</h4>
             <p>
-              Semantic search over INKAR 2025 regional indicators (BBSR), with filters over
-              spatial aggregation level (municipality / district&ndash;NUTS3 / NUTS2), theme,
-              and year. A staging ground for further georeferenced metadata sources.
+              Retrieval over German parliamentary debates (GermaParl) built on dense
+              vector embeddings, for semantic search across large collections of
+              political speech. Supports research into semantic drift, topic
+              modelling, and regional political imaginaries.
             </p>
-            <p><a href="https://geodb.geolab.soz.uni-bielefeld.de">Open the tool</a></p>
+            <p><em>Prototype, access on request.</em></p>
+            <p class="meta">
+              Archived release:
+              <a href="https://doi.org/10.5281/zenodo.21194707">10.5281/zenodo.21194707</a>
+            </p>
           </article>
         </section>
 
@@ -177,7 +360,6 @@
 
       <section id="cv" aria-labelledby="cv-heading">
         <h2 id="cv-heading">CV</h2>
-        <p><a href="cv.pdf">Download CV (PDF)</a></p>
 
         <table class="cv-table">
           <caption>
@@ -194,10 +376,10 @@
             <tr>
               <td data-label="Period">2025&ndash;present</td>
               <td data-label="Role">
-                Research fellow / PhD
+                Research fellow and doctoral researcher
               </td>
               <td data-label="Institution">
-                University of Bielefeld / SOEP-RegioHub
+                University of Bielefeld / SOEP-RegioHub / BGHS
               </td>
             </tr>
             <tr>
@@ -208,7 +390,7 @@
               <td data-label="Institution">Zeppelin University</td>
             </tr>
             <tr>
-              <td data-label="Period">2018-2022</td>
+              <td data-label="Period">2018&ndash;2022</td>
               <td data-label="Role">B.A. Sociology, Politics and Economics</td>
               <td data-label="Institution">Zeppelin University</td>
             </tr>
@@ -231,7 +413,6 @@
               <a href="https://github.com/konstantinwandel">github.com/konstantinwandel</a>
             </li>
             <li>University profile: <a href="https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=648238023">PEVZ Konstantin Wandel</a></li>
-            <li>Google Scholar / ORCID: Add link when available</li>
           </ul>
         </address>
       </section>

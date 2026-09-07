@@ -275,6 +275,14 @@ li {
   margin-top: calc(var(--line-height) / 2);
 }
 
+/* Verschachtelte Abschnitte (Academic / SOEP-RegioHub / Tools) brauchen Luft: h3 hat
+   margin-top: 0, damit eine Überschrift direkt unter ihrem h2 sitzt, und ohne diese Regel
+   klebt die zweite Untergruppe am letzten Absatz der ersten. */
+main section section + section {
+  display: block;
+  margin-top: calc(var(--line-height) * 2);
+}
+
 .project,
 .publication-list li {
   padding-top: calc(var(--line-height) - var(--border-thickness));
