@@ -12,6 +12,9 @@
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
     <title>Konstantin Wandel &middot; Computational Social Science, University of Bielefeld</title>
     <link rel="canonical" href="https://konstantinwandel.github.io/">
+    <link rel="icon" href="favicon.ico" sizes="32x32">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 
     <meta property="og:type" content="profile">
     <meta property="og:title" content="Konstantin Wandel">
@@ -139,12 +142,11 @@
         <p>
           His dissertation asks which modality carries the meaning in short-form
           video, and what follows for measurement once researchers code such
-          material at scale. A second strand of his work builds the data
-          infrastructure of SOEP-RegioHub: semantic search over survey and regional
-          metadata, verified links into the portals that hold the data, and
-          reproducible access paths for regionalized analysis. Further work covers
+          material at scale. A second strand of his work is research-data
+          infrastructure for SOEP-RegioHub: search tools for survey and regional
+          metadata that point to the portals holding the data. Further work covers
           content sharing in the German regional press, the spread of diets within
-          households, and political language in large parliamentary corpora.
+          households, and political language in parliamentary speech.
         </p>
       </section>
 
@@ -178,16 +180,14 @@
           by Prof. Dr. Simon K&uuml;hne.
         </p>
         <p>
-          Four papers in argument order, from everyday communication to the
-          political case. The instrument is validated on the more manifest everyday
-          constructs first and taken to the latent political domain afterwards,
-          which has the side benefit that the political round doubles as coder
-          training.
+          Four papers, from everyday communication to the political case: the
+          measurement instrument is validated on everyday video first and then
+          applied to political content.
         </p>
 
         <table class="cv-table">
           <caption>
-            Papers in argument order
+            Papers
           </caption>
           <thead>
             <tr>
@@ -200,34 +200,31 @@
             <tr>
               <td data-label="Paper">P1</td>
               <td data-label="What it is">
-                Modality ablation on a corpus of everyday short-form video, with a
-                literature-grounded codebook and a purpose-built annotation app
+                Which modality carries which construct in everyday short-form video
               </td>
-              <td data-label="Status">Active, coding</td>
+              <td data-label="Status">In progress</td>
             </tr>
             <tr>
               <td data-label="Paper">P2</td>
               <td data-label="What it is">
-                A typology of modality designs and a reporting standard for
-                multimodal coding, with S.&nbsp;K&uuml;hne
+                A typology and reporting standard for multimodal coding, with
+                S.&nbsp;K&uuml;hne
               </td>
               <td data-label="Status">Conceptual</td>
             </tr>
             <tr>
               <td data-label="Paper">P3</td>
               <td data-label="What it is">
-                Model choice under an annotation budget: budget curves, a capacity
-                check, and design-based supervised learning for error-aware inference
+                Model choice and annotation budgets
               </td>
-              <td data-label="Status">Follows the gold standard</td>
+              <td data-label="Status">Planned</td>
             </tr>
             <tr>
               <td data-label="Paper">P4</td>
               <td data-label="What it is">
-                Political stress test: modality ablation on PoliTok-DE, the hardest
-                and most latent constructs
+                The same questions for political short-form video
               </td>
-              <td data-label="Status">Held as the deep test</td>
+              <td data-label="Status">Planned</td>
             </tr>
           </tbody>
         </table>
@@ -244,10 +241,8 @@
           <article class="project">
             <h4>Eating Together, Eating Alike</h4>
             <p>
-              Household transmission and persistence of plant-based diets in
-              Germany: how vegetarian and vegan diets spread between household
-              members and how long they last, using the German Socio-Economic Panel
-              (SOEP-Core, diet waves 2016&ndash;2023). Working paper with
+              How vegetarian and vegan diets spread within households and how long
+              they last, using the German Socio-Economic Panel. Working paper with
               S.&nbsp;K&uuml;hne and K.&nbsp;Ostermann.
             </p>
           </article>
@@ -255,29 +250,18 @@
           <article class="project">
             <h4>Content Sharing in the German Regional Press</h4>
             <p>
-              A directed study of reprinting between regional newspapers, built on
-              62.7 million articles from 121 titles (2013&ndash;2024): which title
-              carries another title&rsquo;s text, how quickly, and along which lines.
-              Same-day syndication dominates, flows follow size rather than wealth,
-              ownership forms the backbone of the network, and local reporting stays
-              siloed while national material travels. Only derived aggregates leave
-              the licensed corpus.
-            </p>
-            <p class="meta">
-              Manuscripts in preparation: <em>Where the News Is Made: The Vertical
-              Division of Editorial Labour and the Distribution of Originality in the
-              German Regional Press</em>; <em>A Public Sphere Blind to Its Cleavages:
-              Ownership, Size, and the Geography of Content Sharing in the German
-              Regional Press</em>.
+              A study of reprinting between German regional newspapers: which titles
+              share text with which, and how ownership, size and geography shape
+              those flows. Only aggregated results leave the licensed corpus. Two
+              manuscripts in preparation.
             </p>
           </article>
 
           <article class="project">
             <h4>Semantic Drift in Parliamentary Speech</h4>
             <p>
-              Embedding-based analysis of political language, topic structures,
-              rurality, regional imaginaries, and semantic movement in large
-              parliamentary corpora. With L.&nbsp;Gawenda.
+              Embedding-based analysis of how political language and references to
+              place change in parliamentary speech. With L.&nbsp;Gawenda.
             </p>
           </article>
 
@@ -297,7 +281,7 @@
             <p>
               Infrastructure and research work around regionalized SOEP analyses,
               geospatial social science, metadata discovery, and reproducible data
-              access. He rebuilt the project website in 2026.
+              access.
             </p>
             <p><a href="https://geolab.soz.uni-bielefeld.de">geolab.soz.uni-bielefeld.de</a></p>
           </article>
@@ -307,7 +291,7 @@
             <p>
               Search and retrieval infrastructure for regionalized datasets,
               variable metadata, codebooks, and linked research documentation. The
-              two finders below run on it, and both index descriptions only.
+              GeoDB and the SOEP Variable Finder run on it and index descriptions only.
             </p>
           </article>
         </section>
@@ -319,12 +303,9 @@
             <h4>GeoDB</h4>
             <p>
               GeoDB, short for GeoDataBase, is a semantic search over the
-              descriptions of German georeferenced data: about 12,500 indicators,
-              tables and datasets from 41 sources, with filters over spatial level (municipality,
-              district&ndash;NUTS3, NUTS2), theme, and year. Each hit links out to
-              the portal that holds the data, wherever the portal allows it at the
-              level of the single indicator or table. Descriptions are indexed, the
-              data itself stays with its provider.
+              descriptions of German regional data from statistical offices and other
+              public sources, filterable by spatial level, theme and year. Each hit
+              links to the portal that holds the data; only descriptions are indexed.
             </p>
             <p><a href="https://geodb.geolab.soz.uni-bielefeld.de">Open the tool</a></p>
             <p class="meta">
@@ -336,11 +317,8 @@
           <article class="project">
             <h4>SOEP Variable Finder</h4>
             <p>
-              Multilingual semantic search over the official SOEP-Core v41 variable
-              metadata: 125,496 variables with bilingual labels, topic paths, and the
-              question wording where it exists. A multilingual bi-encoder with a
-              cross-encoder reranker surfaces canonical analysis-ready variables that
-              keyword search tends to bury under chattier subsample items.
+              Semantic search over the official SOEP-Core variable metadata, in
+              German and English, with labels, topics and question wording.
             </p>
             <p><a href="https://soep-faiss.geolab.soz.uni-bielefeld.de">Open the tool</a></p>
             <p class="meta">
@@ -352,11 +330,9 @@
           <article class="project">
             <h4>Parliamentary Speech Finder</h4>
             <p>
-              Semantic search over 1,021,006 speeches in the German Bundestag,
-              1949&ndash;2025 (GermaParl), built on dense vector embeddings. It returns
-              the original speeches ranked by similarity and generates no summaries.
-              Supports research into semantic drift, topic modelling, and regional
-              political imaginaries.
+              Semantic search over speeches in the German Bundestag since 1949
+              (GermaParl). It returns the original speeches ranked by similarity and
+              generates no summaries.
             </p>
             <p><a href="https://germaparl.geolab.soz.uni-bielefeld.de">Open the tool</a></p>
             <p class="meta">
@@ -369,9 +345,8 @@
             <h4>badata</h4>
             <p>
               R package with regional labour-market data from the German Federal
-              Employment Agency: unemployed persons, employees and vacancies by
-              district and occupational group, 2012&ndash;2025. With H.&nbsp;L.&nbsp;Nguyen
-              and D.&nbsp;Tsolak; he extended the data through 2025 for version 0.2.0.
+              Employment Agency, by district and occupational group. With
+              H.&nbsp;L.&nbsp;Nguyen and D.&nbsp;Tsolak.
             </p>
             <p><a href="https://regiohub.github.io/badata/">Package documentation</a></p>
             <p class="meta">

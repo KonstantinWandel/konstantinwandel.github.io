@@ -14,6 +14,8 @@ site pipeline.
 - `style.css` contains the academic monospace layout and responsive styling.
 - `script.js` contains the manual light/dark theme toggle.
 - `reset.css` normalizes browser defaults for consistent rendering.
+- `favicon.ico`, `assets/favicon.svg` and `assets/apple-touch-icon.png` are the KW tab icon. The
+  SVG swaps ink and cream with the system colour scheme; the ICO and PNG are the light version.
 - `assets/Konstantin_Wandel_CV.pdf` is the academic CV linked from the CV section. It is
   the web copy, whose references read "available on request"; its LaTeX source is kept
   outside this repository.

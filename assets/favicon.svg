@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <style>
+    .bg { fill: #17130f; } g { stroke: #f4eddf; }
+    @media (prefers-color-scheme: dark) { .bg { fill: #f4eddf; } g { stroke: #17130f; } }
+  </style>
+  <defs><clipPath id="band"><rect x="0" y="7.0" width="32" height="18.0"/></clipPath></defs>
+  <rect class="bg" width="32" height="32" rx="2"/>
+  <g clip-path="url(#band)" fill="none" stroke-width="3.2" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="8"><path d="M6.45 5V27"/><path d="M6.45 17.2 L13.25 4.6"/><path d="M8.950000000000001 12.9 L13.25 27.4"/><path d="M15.75 4.6 L17.95 27.6 L20.650000000000002 12.6 L23.35 27.6 L25.55 4.6"/></g>
+</svg>
