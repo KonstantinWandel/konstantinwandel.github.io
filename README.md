@@ -14,7 +14,9 @@ site pipeline.
 - `style.css` contains the academic monospace layout and responsive styling.
 - `script.js` contains the manual light/dark theme toggle.
 - `reset.css` normalizes browser defaults for consistent rendering.
-- `assets/` is reserved for future static files.
+- `assets/Konstantin_Wandel_CV.pdf` is the academic CV linked from the CV section. It is
+  the web copy, whose references read "available on request"; its LaTeX source is kept
+  outside this repository.
 - `robots.txt` allows all crawlers and points to the sitemap.
 - `sitemap.xml` lists the single page with its last modification date.
 
@@ -23,9 +25,8 @@ site pipeline.
 The homepage presents a sparse academic profile, research interests, the
 dissertation programme, current projects and tools, CV entries, and contact
 information. Publication statuses, profile links, awards, supervisors, grades,
-and similar biographical details should only be added when confirmed. A CV PDF
-is deliberately not linked while no file exists; the CV table carries the same
-information.
+and similar biographical details should only be added when confirmed. The CV
+table and the linked PDF must agree; when one changes, update the other.
 
 ## Search Visibility
 

@@ -20,7 +20,7 @@
     <meta property="og:locale" content="en_GB">
     <meta
       property="og:description"
-      content="Research fellow and doctoral researcher at the University of Bielefeld: multimodal measurement of short-form video, regional data infrastructure, SOEP-based panel analysis."
+      content="Research fellow and doctoral researcher at the University of Bielefeld: multimodal measurement of short-form video, regional data infrastructure, the German regional press, SOEP panel analysis."
     >
     <meta property="profile:first_name" content="Konstantin">
     <meta property="profile:last_name" content="Wandel">
@@ -28,7 +28,7 @@
     <meta name="twitter:title" content="Konstantin Wandel">
     <meta
       name="twitter:description"
-      content="Research fellow and doctoral researcher at the University of Bielefeld: multimodal measurement of short-form video, regional data infrastructure, SOEP-based panel analysis."
+      content="Research fellow and doctoral researcher at the University of Bielefeld: multimodal measurement of short-form video, regional data infrastructure, the German regional press, SOEP panel analysis."
     >
 
     <link rel="stylesheet" href="reset.css">
@@ -37,7 +37,7 @@
 
     <!--
       Structured data for search engines. Only facts that also appear on the page:
-      role, affiliation, degrees, topics, and the two profiles that identify the same
+      role, affiliation, degrees, topics, and the three profiles that identify the same
       person elsewhere. Nothing unconfirmed goes in here, same rule as the page itself.
     -->
     <script type="application/ld+json">
@@ -80,6 +80,7 @@
           "Measurement validity and annotation design",
           "Political sociology",
           "Regional inequality",
+          "Regional press",
           "SOEP panel analysis",
           "Geospatial social science",
           "Natural language processing",
@@ -87,6 +88,7 @@
           "Semantic drift"
         ],
         "sameAs": [
+          "https://orcid.org/0009-0007-3321-7774",
           "https://github.com/konstantinwandel",
           "https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=648238023"
         ]
@@ -117,6 +119,7 @@
           <li><a href="#research">Research</a></li>
           <li><a href="#dissertation">Dissertation</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#talks">Talks</a></li>
           <li><a href="#cv">CV</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -127,9 +130,11 @@
       <section id="about" aria-labelledby="about-heading">
         <h2 id="about-heading">About</h2>
         <p>
-          Konstantin Wandel is a research fellow at the University of Bielefeld,
-          working at LeibnizCampus / SOEP-RegioHub / DIW, and a doctoral researcher
-          at the Bielefeld Graduate School in History and Sociology (BGHS).
+          Konstantin Wandel is a research fellow in the Social Data Science group at
+          the University of Bielefeld and the Leibniz ScienceCampus SOEP-RegioHub
+          (University of Bielefeld and DIW Berlin). Since September 2026 he is a
+          doctoral researcher in sociology at the Bielefeld Graduate School in
+          History and Sociology (BGHS).
         </p>
         <p>
           His dissertation asks which modality carries the meaning in short-form
@@ -137,9 +142,9 @@
           material at scale. A second strand of his work builds the data
           infrastructure of SOEP-RegioHub: semantic search over survey and regional
           metadata, verified links into the portals that hold the data, and
-          reproducible access paths for regionalized analysis. Earlier and
-          continuing work covers regional inequality, panel analysis of household
-          processes, and political language in large parliamentary corpora.
+          reproducible access paths for regionalized analysis. Further work covers
+          content sharing in the German regional press, the spread of diets within
+          households, and political language in large parliamentary corpora.
         </p>
       </section>
 
@@ -153,6 +158,7 @@
           <li>Measurement validity, codebooks and annotation design</li>
           <li>Political sociology</li>
           <li>Regional inequality and social mobility</li>
+          <li>The German regional press and news syndication</li>
           <li>SOEP-based panel analysis</li>
           <li>Geospatial social science</li>
           <li>NLP, embeddings, semantic drift</li>
@@ -166,11 +172,17 @@
       <section id="dissertation" aria-labelledby="dissertation-heading">
         <h2 id="dissertation-heading">Dissertation</h2>
         <p>
-          <strong>Multimodal Measurement of Short-Form Video.</strong> Four papers in
-          argument order, from everyday communication to the political case. The
-          instrument is validated on the more manifest everyday constructs first and
-          taken to the latent political domain afterwards, which has the side benefit
-          that the political round doubles as coder training.
+          <strong>Short-Form Video as Data for the Social Sciences: Validated
+          Multimodal Measurement of Online Communication</strong> (working title).
+          Doctoral project in sociology at the BGHS since September 2026, supervised
+          by Prof. Dr. Simon K&uuml;hne.
+        </p>
+        <p>
+          Four papers in argument order, from everyday communication to the
+          political case. The instrument is validated on the more manifest everyday
+          constructs first and taken to the latent political domain afterwards,
+          which has the side benefit that the political round doubles as coder
+          training.
         </p>
 
         <table class="cv-table">
@@ -197,15 +209,15 @@
               <td data-label="Paper">P2</td>
               <td data-label="What it is">
                 A typology of modality designs and a reporting standard for
-                multimodal coding
+                multimodal coding, with S. K&uuml;hne
               </td>
               <td data-label="Status">Conceptual</td>
             </tr>
             <tr>
               <td data-label="Paper">P3</td>
               <td data-label="What it is">
-                Model inference under a budget: cost curves, capacity checks, and a
-                small language for describing coding designs
+                Model choice under an annotation budget: budget curves, a capacity
+                check, and design-based supervised learning for error-aware inference
               </td>
               <td data-label="Status">Follows the gold standard</td>
             </tr>
@@ -230,34 +242,33 @@
           <h3 id="academic-projects-heading">Academic projects</h3>
 
           <article class="project">
-            <h4>
-              Multidimensionality in Meritocracy: Evidence from the German
-              Socioeconomic Panel
-            </h4>
+            <h4>Eating Together, Eating Alike</h4>
             <p>
-              Binary scales contrasting meritocracy with recognition of social closure are intuitively appealing but empirically weak.
-              Evidence from the German Socio-Economic Panel (SOEP) suggests that these attributions are often orthogonal.
-            </p>
-          </article>
-
-          <article class="project">
-            <h4>Plant-Based Diet Diffusion in German Households</h4>
-            <p>
-              Panel-based analysis of vegetarian and vegan dietary transitions,
-              household composition, and intra-household diffusion dynamics using
-              SOEP data. With S. K&uuml;hne and K. Ostermann.
+              Household transmission and persistence of plant-based diets in
+              Germany: how vegetarian and vegan diets spread between household
+              members and how long they last, using the German Socio-Economic Panel
+              (SOEP-Core, diet waves 2016&ndash;2023). Working paper with
+              S. K&uuml;hne and K. Ostermann.
             </p>
           </article>
 
           <article class="project">
             <h4>Content Sharing in the German Regional Press</h4>
             <p>
-              A directed study of reprinting between regional newspapers: which title
+              A directed study of reprinting between regional newspapers, built on
+              62.7 million articles from 121 titles (2013&ndash;2024): which title
               carries another title&rsquo;s text, how quickly, and along which lines.
               Same-day syndication dominates, flows follow size rather than wealth,
               ownership forms the backbone of the network, and local reporting stays
               siloed while national material travels. Only derived aggregates leave
               the licensed corpus.
+            </p>
+            <p class="meta">
+              Manuscripts in preparation: <em>Where the News Is Made: The Vertical
+              Division of Editorial Labour and the Distribution of Originality in the
+              German Regional Press</em>; <em>A Public Sphere Blind to Its Cleavages:
+              Ownership, Size, and the Geography of Content Sharing in the German
+              Regional Press</em>.
             </p>
           </article>
 
@@ -286,7 +297,7 @@
             <p>
               Infrastructure and research work around regionalized SOEP analyses,
               geospatial social science, metadata discovery, and reproducible data
-              access.
+              access. He rebuilt the project website in 2026.
             </p>
             <p><a href="https://geolab.soz.uni-bielefeld.de">geolab.soz.uni-bielefeld.de</a></p>
           </article>
@@ -352,8 +363,36 @@
               <a href="https://doi.org/10.5281/zenodo.21194707">10.5281/zenodo.21194707</a>
             </p>
           </article>
+
+          <article class="project">
+            <h4>badata</h4>
+            <p>
+              R package with regional labour-market data from the German Federal
+              Employment Agency: unemployed persons, employees and vacancies by
+              district and occupational group, 2012&ndash;2025. With H. L. Nguyen
+              and D. Tsolak; he extended the data through 2025 for version 0.2.0.
+            </p>
+            <p><a href="https://regiohub.github.io/badata/">Package documentation</a></p>
+            <p class="meta">
+              Archived release:
+              <a href="https://doi.org/10.5281/zenodo.7636114">10.5281/zenodo.7636114</a>
+            </p>
+          </article>
         </section>
 
+      </section>
+
+      <hr>
+
+      <section id="talks" aria-labelledby="talks-heading">
+        <h2 id="talks-heading">Talks</h2>
+        <ul class="publication-list">
+          <li>
+            <strong>Video, Images and Text as Data: Navigating a New Frontier.</strong>
+            LSC Research Retreat, Leibniz ScienceCampus SOEP-RegioHub, Bielefeld,
+            6&ndash;7 October 2026.
+          </li>
+        </ul>
       </section>
 
       <hr>
@@ -361,9 +400,13 @@
       <section id="cv" aria-labelledby="cv-heading">
         <h2 id="cv-heading">CV</h2>
 
+        <p>
+          <a href="assets/Konstantin_Wandel_CV.pdf">Full academic CV (PDF, 2 pages)</a>
+        </p>
+
         <table class="cv-table">
           <caption>
-            Academic CV
+            Positions and education
           </caption>
           <thead>
             <tr>
@@ -374,12 +417,31 @@
           </thead>
           <tbody>
             <tr>
-              <td data-label="Period">2025&ndash;present</td>
-              <td data-label="Role">
-                Research fellow and doctoral researcher
-              </td>
+              <td data-label="Period">2026&ndash;present</td>
+              <td data-label="Role">Doctoral researcher in sociology</td>
               <td data-label="Institution">
-                University of Bielefeld / SOEP-RegioHub / BGHS
+                Bielefeld Graduate School in History and Sociology (BGHS)
+              </td>
+            </tr>
+            <tr>
+              <td data-label="Period">2025&ndash;present</td>
+              <td data-label="Role">Research fellow</td>
+              <td data-label="Institution">
+                University of Bielefeld / SOEP-RegioHub
+              </td>
+            </tr>
+            <tr>
+              <td data-label="Period">2024&ndash;2025</td>
+              <td data-label="Role">Research assistant</td>
+              <td data-label="Institution">
+                RITZ Regional Innovation and Technology Transfer Centre
+              </td>
+            </tr>
+            <tr>
+              <td data-label="Period">2023&ndash;2024</td>
+              <td data-label="Role">Student research assistant</td>
+              <td data-label="Institution">
+                Center for Political Communication, Zeppelin University
               </td>
             </tr>
             <tr>
@@ -390,7 +452,7 @@
               <td data-label="Institution">Zeppelin University</td>
             </tr>
             <tr>
-              <td data-label="Period">2018&ndash;2022</td>
+              <td data-label="Period">2018&ndash;2023</td>
               <td data-label="Role">B.A. Sociology, Politics and Economics</td>
               <td data-label="Institution">Zeppelin University</td>
             </tr>
@@ -411,6 +473,10 @@
             <li>
               GitHub:
               <a href="https://github.com/konstantinwandel">github.com/konstantinwandel</a>
+            </li>
+            <li>
+              ORCID:
+              <a href="https://orcid.org/0009-0007-3321-7774">0009-0007-3321-7774</a>
             </li>
             <li>University profile: <a href="https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=648238023">PEVZ Konstantin Wandel</a></li>
           </ul>
